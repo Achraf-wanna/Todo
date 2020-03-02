@@ -1,0 +1,39 @@
+#chk:checked ~ p{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.first{
+	margin: 8%;
+}
+
+input[type=button] {
+  background-color: black;
+  color: white;
+  padding: 12px 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: red;
+}
+
+input[type=text] {
+  width: 700px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  outline: none;
+}
+span {
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+    font-size: 30px;
+    font-family: 'impact';
+}
